@@ -3,7 +3,11 @@ package com.day9.oops;
 public class AddressBook {
 
     public static void main(String[] args) {
+
         System.out.println("Welcome to Address Book Program");
+        /*
+        * creating object of ContactDetails to access their variables and methods
+        */
         ContactDetails contactDetails = new ContactDetails();
         contactDetails.setFirstName("Ravikumar");
         contactDetails.setLastName("Kamble");
